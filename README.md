@@ -1,12 +1,11 @@
 # rackspace-cloud-backup-timeshifter
-Shift times of all of your Cloud Backups in a specific datacentre in the Rackspace Cloud
 
-Things to keep in mind when running this script:
+## Things to keep in mind when running this script:
 1. The script will operate as if it would be a client residing in the UTC time-zone
 2. All your backups will now be defined in UTC, but will still be shown in your local time zone in the Cloud Control Panel
 3. By default the dry_run variable is set to False, unless you change it to True, there will be no changes made to your schedules
 
-To use, edit the file and set the variables on the beginning
+## To use, edit the file and set the variables on the beginning
 1. You will need your username and api key
 2. The datacentre (set to 'lon' by default)
 3. Change the dry_run variable to False to arm
